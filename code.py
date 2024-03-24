@@ -2,7 +2,7 @@
 from adafruit_circuitplayground import cp
 
 cp.pixels.brightness = 0.3
-cp.pixels.fill((0,0,0))
+cp.pixels.fill((0,0,0)
 cp.pixels[0] = (0,25,0)
 
 cp.adjust_touch_threshold(1000)
